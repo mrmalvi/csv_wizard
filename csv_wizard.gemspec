@@ -8,14 +8,14 @@ Gem::Specification.new do |spec|
   spec.authors = ["mrmalvi"]
   spec.email = ["malviyak00@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "CsvWizard: Import and process CSV files into ActiveRecord models."
+  spec.description = "CsvWizard provides a simple framework to import CSV files into Rails models. It supports required fields, default values, row-level validation, and hooks for pre- and post-processing."
+  spec.homepage      = "https://github.com/mrmalvi/csv_wizard"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["homepage_uri"]     = spec.homepage
+  spec.metadata["source_code_uri"]  = "https://github.com/mrmalvi/csv_wizard"
+  spec.metadata["changelog_uri"]    = "https://github.com/mrmalvi/csv_wizard/blob/main/CHANGELOG.md"
 
 
   spec.add_dependency "activesupport", ">= 6.0"
