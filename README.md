@@ -17,7 +17,7 @@ It is designed to simplify CSV imports in Rails applications.
 Add this line to your Rails application's Gemfile:
 
 ```ruby
-gem "csv_wizard", "~> 0.1.0", git: "https://github.com/username/csv_wizard.git"
+gem "csv_wizard"
 ```
 
 Then run:
@@ -32,13 +32,6 @@ bundle install
 
 - Ruby >= 2.6
 - Rails >= 6.0
-
-Optional dependency for logging:
-
-```ruby
-gem "logging", ">= 2.3"
-```
-
 ---
 
 ## Usage
