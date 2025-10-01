@@ -1,11 +1,5 @@
 # spec/csv_wizard/import_job_spec.rb
 require "spec_helper"
-require "tempfile"
-require "logging"
-require_relative "../../lib/csv_wizard/import_job"
-require_relative "../../lib/csv_wizard/mapper"
-require_relative "../../lib/csv_wizard/importer"
-require_relative "../../lib/csv_wizard/row_processor"
 
 RSpec.describe CsvWizard::ImportJob do
   let(:csv_content) { "Email,Name\nuser@example.com,John Doe\n" }
