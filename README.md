@@ -141,8 +141,8 @@ MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## Metadata for RubyGems
 
-- Homepage: [https://github.com/username/csv_wizard](https://github.com/username/csv_wizard)
-- Source code: [https://github.com/username/csv_wizard](https://github.com/username/csv_wizard)
+- Homepage: [https://github.com/username/csv_wizard](https://github.com/mrmalvi/csv_wizard)
+- Source code: [https://github.com/username/csv_wizard](https://github.com/mrmalvi/csv_wizard)
 - Required Ruby version: >= 2.6
 - Required Rails version: >= 6.0
 
