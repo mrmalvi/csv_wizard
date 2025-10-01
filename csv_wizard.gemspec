@@ -8,6 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["mrmalvi"]
   spec.email = ["malviyak00@gmail.com"]
 
+  spec.license = "MIT"
+
   spec.summary = "CsvWizard: Import and process CSV files into ActiveRecord models."
   spec.description = "CsvWizard provides a simple framework to import CSV files into Rails models. It supports required fields, default values, row-level validation, and hooks for pre- and post-processing."
   spec.homepage      = "https://github.com/mrmalvi/csv_wizard"
